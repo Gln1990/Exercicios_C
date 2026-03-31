@@ -23,7 +23,6 @@ int main()
         printf("\nTecle [1] para SIM ou qualquer numero para nao: ");
         scanf("%d", &resp);
 
-
     }
     return 0;
 }
