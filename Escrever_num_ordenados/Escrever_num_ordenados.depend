@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1774993192 source:c:\users\gleys\projeto_c\exercicios_c\escrever_num_ordenados\main.c
+	<stdio.h>
+	<stdlib.h>
+

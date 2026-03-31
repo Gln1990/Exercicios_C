@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* Calculo de media de 8 alunos com 4 notas */
+/* Matriz de 8 alunos com 4 notas */
 int main()
 {
     float MD[8][4], num;
@@ -10,7 +10,7 @@ int main()
 
     /* Entrada das notas */
     for(i = 0; i <= 7; i++){
-        printf("\nInforme aas notas do %do. aluno: \n\n", i+1);
+        printf("\nInforme as notas do %do. aluno: \n\n", i+1);
         for(j = 0; j <= 3; j++){
             printf("Nota %d: ", j+1);
             scanf("%f", &num);
