@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*Algoritimo
-  1 - Criar variavel para servir como contador com valor inicial 1
-  2 - Enquanto o valor do contador for menor ou igual a 5, procesar os passos 3, 4 e 5
-  3 - Ler os dois valores
-  4 - Efetuar o calculo, e guardando o resultado na varial R
-  5 - Apresentar o valor calculado em R
-  6 - Acrescentar ao contador 1
-  7 - Quando o contador for maior que 5, encerrar o processamento*/
+  1 - Criar variavel a, b, r, resp como int
+  2 - Inicializar resp com 1
+  3 - Enquanto resp for igual a 1, continuar o processamento
+  4 - Solicitar os valores e guardar nas variaveis a e b
+  5 - Somar os dois valores e guardar na variavel r
+  6 - Apresentar o valor calculado em r
+  7 - Soliciatr se o usuario deseja continuar e guardar na variavel resp*/
 int main()
 {
     int a, b, r, resp;
@@ -20,8 +20,10 @@ int main()
         r = a + b;
         printf("\nA soma entre %d e %d e: %d\n", a, b, r);
         printf("\nDeseja contunuar?");
-        printf("\nTecle [1] para SIM / [2] para NAO: ");
+        printf("\nTecle [1] para SIM ou qualquer numero para nao: ");
         scanf("%d", &resp);
+
+
     }
     return 0;
 }
