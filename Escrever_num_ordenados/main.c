@@ -9,7 +9,7 @@ int main()
 
     /* Entrada de dados */
     for(i = 0; i <= 4; i++){
-        printf("Informe o %do. valor: ", i+1);
+        printf("Informe o %do. valor: \n", i+1);
         fflush(stdin); scanf("%d", &num[i]);
     }
 
