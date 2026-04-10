@@ -4,15 +4,13 @@
 negativo. Ao final, mostre quantos números não negativos foram digitados.*/
 int main()
 {
-    int num, cont;
-    printf("Informe um numero: ");
-    scanf("%d", &num);
-    while(num >= 0){
-        printf("\nInforme um numero: ");
-        cont++;
+    int num, i=0;
+    do{
+        printf("Informe um numero: ");
         scanf("%d", &num);
-    }
-    printf("\nForam digitados %d numeros nao negativos\n", cont);
-
+        if(num >= 0)
+            i++;
+    }while(num >= 0);
+    printf("Foram digitados %d numeros nao negativos", i);
     return 0;
 }

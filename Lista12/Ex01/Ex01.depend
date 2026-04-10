@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1775856048 source:c:\users\gleys\projeto_c\exercicios_c\lista12\ex01\l12ex01.c
+	<stdio.h>
+	<stdlib.h>
+
