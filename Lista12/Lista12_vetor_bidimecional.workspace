@@ -4,5 +4,14 @@
 		<Project filename="Ex01/Ex01.cbp" />
 		<Project filename="Ex02/Ex02.cbp" />
 		<Project filename="Ex03/Ex03.cbp" />
+		<Project filename="Ex04/Ex04.cbp" />
+		<Project filename="Ex05/Ex05.cbp" />
+		<Project filename="Ex06/Ex06.cbp" />
+		<Project filename="Ex07/Ex07.cbp" />
+		<Project filename="Ex08/Ex08.cbp" />
+		<Project filename="Ex09/Ex09.cbp" />
+		<Project filename="Ex10/Ex10.cbp" />
+		<Project filename="Ex11/Ex11.cbp" />
+		<Project filename="Ex12/Ex12.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
